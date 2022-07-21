@@ -1,0 +1,6 @@
+services:
+ golang-app:
+  container_name: golang-app
+  image: assidik14/golang-hello:1.0
+  ports:
+  - 80:8080
